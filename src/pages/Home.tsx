@@ -255,11 +255,11 @@ export default function Home() {
               className="glass-card rounded-2xl p-8 flex flex-col"
             >
               <h3 className="text-2xl font-bold mb-2">Standard Package</h3>
-              <div className="text-3xl font-bold text-brand-red mb-1">$2,500</div>
+              <div className="text-3xl font-bold text-brand-red mb-1">$999 <span className="text-lg text-brand-gray font-normal">+ $149/mo</span></div>
               <div className="text-sm text-brand-gray mb-6">One-time build</div>
               
               <ul className="space-y-4 mb-8 flex-grow">
-                {['5–8 page website', 'Mobile optimization', 'Hosting setup'].map((item, i) => (
+                {['5–8 page website', 'Mobile optimization', 'Hosting setup', 'Basic SEO setup'].map((item, i) => (
                   <li key={i} className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-brand-red mr-3 shrink-0" />
                     <span className="text-brand-gray">{item}</span>
@@ -284,11 +284,11 @@ export default function Home() {
                 Most Popular
               </div>
               <h3 className="text-2xl font-bold mb-2">Premium Package</h3>
-              <div className="text-3xl font-bold text-brand-red mb-1">$2,500 <span className="text-lg text-brand-gray font-normal">+ $300/mo</span></div>
+              <div className="text-3xl font-bold text-brand-red mb-1">$1,499 <span className="text-lg text-brand-gray font-normal">+ $299/mo</span></div>
               <div className="text-sm text-brand-gray mb-6">Build + Maintenance</div>
               
               <ul className="space-y-4 mb-8 flex-grow">
-                {['Website build', 'Hosting included', 'Ongoing maintenance', 'Monthly edits'].map((item, i) => (
+                {['Website build', 'Hosting included', 'Ongoing maintenance', 'Monthly edits', 'Google calender booking'].map((item, i) => (
                   <li key={i} className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-brand-red mr-3 shrink-0" />
                     <span className="text-brand-gray">{item}</span>
@@ -310,11 +310,11 @@ export default function Home() {
               className="glass-card rounded-2xl p-8 flex flex-col"
             >
               <h3 className="text-2xl font-bold mb-2">Elite Package</h3>
-              <div className="text-3xl font-bold text-brand-red mb-1">$5,000 <span className="text-lg text-brand-gray font-normal">+ $300/mo</span></div>
+              <div className="text-3xl font-bold text-brand-red mb-1">$2,999 <span className="text-lg text-brand-gray font-normal">+ $499/mo</span></div>
               <div className="text-sm text-brand-gray mb-6">Build + SEO + Maintenance</div>
               
               <ul className="space-y-4 mb-8 flex-grow">
-                {['Website build', 'SEO pages', 'Google Business profile help', 'Review funnel', 'Analytics', 'Monthly updates'].map((item, i) => (
+                {['Website build', 'SEO pages', 'Google Business profile help', 'Review funnel', 'Analytics', 'AI Employee', 'Monthly updates'].map((item, i) => (
                   <li key={i} className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-brand-red mr-3 shrink-0" />
                     <span className="text-brand-gray">{item}</span>

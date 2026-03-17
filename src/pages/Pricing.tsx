@@ -35,8 +35,8 @@ export default function Pricing() {
             className="glass-card rounded-2xl p-8 flex flex-col"
           >
             <h3 className="text-2xl font-bold mb-2">Standard Package</h3>
-            <div className="text-4xl font-bold text-brand-red mb-1">$2,500</div>
-            <div className="text-sm text-brand-gray mb-6">One-time build</div>
+            <div className="text-4xl font-bold text-brand-red mb-1">$999</div>
+            <div className="text-sm text-brand-gray mb-6">+ $149/month</div>
             
             <ul className="space-y-4 mb-8 flex-grow">
               {['5–8 page website', 'Mobile optimization', 'Hosting setup', 'Basic SEO setup'].map((item, i) => (
@@ -63,11 +63,11 @@ export default function Pricing() {
               Most Popular
             </div>
             <h3 className="text-2xl font-bold mb-2">Premium Package</h3>
-            <div className="text-4xl font-bold text-brand-red mb-1">$2,500</div>
-            <div className="text-lg text-brand-gray mb-6">+ $300/month</div>
+            <div className="text-4xl font-bold text-brand-red mb-1">$1,499</div>
+            <div className="text-lg text-brand-gray mb-6">+ $299/month</div>
             
             <ul className="space-y-4 mb-8 flex-grow">
-              {['Everything in Standard', 'Hosting included', 'Ongoing maintenance', 'Monthly edits', 'Priority support'].map((item, i) => (
+              {['Everything in Standard', 'Hosting included', 'Ongoing maintenance', 'Monthly edits', 'Google calender booking'].map((item, i) => (
                 <li key={i} className="flex items-start">
                   <CheckCircle2 className="w-5 h-5 text-brand-red mr-3 shrink-0" />
                   <span className="text-brand-white">{item}</span>
@@ -88,11 +88,11 @@ export default function Pricing() {
             className="glass-card rounded-2xl p-8 flex flex-col"
           >
             <h3 className="text-2xl font-bold mb-2">Elite Package</h3>
-            <div className="text-4xl font-bold text-brand-red mb-1">$5,000</div>
-            <div className="text-lg text-brand-gray mb-6">+ $300/month</div>
+            <div className="text-4xl font-bold text-brand-red mb-1">$2,999</div>
+            <div className="text-lg text-brand-gray mb-6">+ $499/month</div>
             
             <ul className="space-y-4 mb-8 flex-grow">
-              {['Everything in Premium', 'Local SEO pages', 'Google Business profile help', 'Review funnel setup', 'Advanced analytics', 'Monthly strategy call'].map((item, i) => (
+              {['Everything in Premium', 'Local SEO pages', 'Google Business profile help', 'Review funnel setup', 'Advanced analytics', 'Monthly strategy call', 'AI Employee'].map((item, i) => (
                 <li key={i} className="flex items-start">
                   <CheckCircle2 className="w-5 h-5 text-brand-red mr-3 shrink-0" />
                   <span className="text-brand-gray">{item}</span>

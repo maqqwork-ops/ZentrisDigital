@@ -14,7 +14,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import LocalSEO from './pages/LocalSEO';
 
-import ScrollTop from './components/ScrollTop';
+import ScrollTop from './components/ScrollToTop';
 
 export default function App() {
   return (

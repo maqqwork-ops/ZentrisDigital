@@ -115,11 +115,11 @@ export default function Contact() {
                   </div>
                   847-650-6404
                 </a>
-                <a href="mailto:hello@zentrisdigital.com" className="flex items-center text-lg hover:text-brand-red transition-colors group">
+                <a href="mailto:zentrisdigitall@gmail.com" className="flex items-center text-lg hover:text-brand-red transition-colors group">
                   <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mr-4 group-hover:bg-brand-red/20 transition-colors">
                     <Mail className="w-6 h-6 text-brand-red" />
                   </div>
-                  hello@zentrisdigital.com
+                  zentrisdigitall@gmail.com
                 </a>
                 <div className="flex items-center text-lg text-brand-gray">
                   <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mr-4">

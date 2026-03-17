@@ -41,9 +41,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:hello@zentrisdigital.com" className="flex items-center text-brand-gray hover:text-brand-red transition-colors">
+                <a href="mailto:zentrisdigitall@gmail.com" className="flex items-center text-brand-gray hover:text-brand-red transition-colors">
                   <Mail className="w-5 h-5 mr-3 text-brand-red" />
-                  hello@zentrisdigital.com
+                  zentrisdigitall@gmail.com
                 </a>
               </li>
             </ul>

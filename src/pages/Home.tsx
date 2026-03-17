@@ -204,7 +204,7 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold mb-2">Standard Package</h3>
               <div className="text-3xl font-bold text-brand-red mb-1">$999 <span className="text-lg text-brand-gray font-normal">+ $149/mo</span></div>
-              <div className="text-sm text-brand-gray mb-6">One-time build</div>
+              <div className="text-sm text-brand-gray mb-6">Build + Maintenance</div>
               
               <ul className="space-y-4 mb-8 flex-grow">
                 {['5–8 page website', 'Mobile optimization', 'Hosting setup', 'Basic SEO setup'].map((item, i) => (

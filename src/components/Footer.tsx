@@ -24,7 +24,6 @@ export default function Footer() {
             <ul className="space-y-3">
               <li><Link to="/services" className="text-brand-gray hover:text-brand-red transition-colors">Services</Link></li>
               <li><Link to="/pricing" className="text-brand-gray hover:text-brand-red transition-colors">Pricing</Link></li>
-              <li><Link to="/portfolio" className="text-brand-gray hover:text-brand-red transition-colors">Portfolio</Link></li>
               <li><Link to="/about" className="text-brand-gray hover:text-brand-red transition-colors">About</Link></li>
               <li><Link to="/contact" className="text-brand-gray hover:text-brand-red transition-colors">Contact</Link></li>
               <li><Link to="/local-seo/elgin" className="text-brand-gray hover:text-brand-red transition-colors">Elgin Web Design</Link></li>

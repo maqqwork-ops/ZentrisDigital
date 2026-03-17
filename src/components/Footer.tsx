@@ -26,7 +26,6 @@ export default function Footer() {
               <li><Link to="/pricing" className="text-brand-gray hover:text-brand-red transition-colors">Pricing</Link></li>
               <li><Link to="/about" className="text-brand-gray hover:text-brand-red transition-colors">About</Link></li>
               <li><Link to="/contact" className="text-brand-gray hover:text-brand-red transition-colors">Contact</Link></li>
-              <li><Link to="/local-seo/elgin" className="text-brand-gray hover:text-brand-red transition-colors">Elgin Web Design</Link></li>
             </ul>
           </div>
 

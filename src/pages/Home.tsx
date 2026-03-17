@@ -87,7 +87,7 @@ export default function Home() {
               transition={{ delay: 0.1 }}
               className="p-6"
             >
-              <div className="text-4xl font-bold text-brand-red mb-2">2 Weeks</div>
+              <div className="text-4xl font-bold text-brand-red mb-2">24 Hours</div>
               <div className="text-brand-gray font-medium uppercase tracking-wider text-sm">Fast Delivery</div>
             </motion.div>
             <motion.div 

@@ -9,7 +9,6 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import Pricing from './pages/Pricing';
-import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import LocalSEO from './pages/LocalSEO';
@@ -26,7 +25,6 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="services" element={<Services />} />
           <Route path="pricing" element={<Pricing />} />
-          <Route path="portfolio" element={<Portfolio />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="local-seo" element={<LocalSEO />} />

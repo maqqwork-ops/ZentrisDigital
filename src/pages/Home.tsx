@@ -7,7 +7,10 @@ export default function Home() {
     <div className="overflow-hidden">
       {/* Section 1 - Hero */}
       <section className="relative min-h-[90vh] flex items-center pt-20 pb-32">
+<<<<<<< HEAD
         {/* Background Elements */}
+=======
+>>>>>>> 21dc265e48442e582ed12dd6d208eff33329ca38
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-brand-dark-red/20 via-brand-black to-brand-black -z-10"></div>
         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-brand-red/10 rounded-full blur-3xl -z-10 animate-pulse"></div>
         <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-brand-dark-red/20 rounded-full blur-3xl -z-10"></div>
@@ -71,6 +74,7 @@ export default function Home() {
             <p className="text-xl font-medium text-brand-gray">Helping businesses launch powerful digital experiences.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+<<<<<<< HEAD
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -97,6 +101,19 @@ export default function Home() {
               transition={{ delay: 0.2 }}
               className="p-6"
             >
+=======
+            <motion.div className="p-6">
+              <div className="text-4xl font-bold text-brand-red mb-2">100+</div>
+              <div className="text-brand-gray font-medium uppercase tracking-wider text-sm">Websites Built</div>
+            </motion.div>
+
+            <motion.div className="p-6">
+              <div className="text-4xl font-bold text-brand-red mb-2">2 Weeks</div>
+              <div className="text-brand-gray font-medium uppercase tracking-wider text-sm">Fast Delivery</div>
+            </motion.div>
+
+            <motion.div className="p-6">
+>>>>>>> 21dc265e48442e582ed12dd6d208eff33329ca38
               <div className="text-4xl font-bold text-brand-red mb-2">100%</div>
               <div className="text-brand-gray font-medium uppercase tracking-wider text-sm">Mobile Optimized</div>
             </motion.div>
@@ -104,6 +121,7 @@ export default function Home() {
         </div>
       </section>
 
+<<<<<<< HEAD
       {/* Section 3 - Services Overview */}
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -363,3 +381,105 @@ export default function Home() {
     </div>
   );
 }
+=======
+      {/* Section 3 - Services */}
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Our Services</h2>
+            <p className="text-brand-gray max-w-2xl mx-auto">
+              Everything you need to establish a dominant online presence.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+
+            <div className="glass-card p-8 rounded-xl">
+              <Layout className="w-8 h-8 text-brand-red mb-4"/>
+              <h3 className="text-xl font-bold mb-3">Website Design</h3>
+              <p className="text-brand-gray">Modern responsive websites built for conversions.</p>
+            </div>
+
+            <div className="glass-card p-8 rounded-xl">
+              <MapPin className="w-8 h-8 text-brand-red mb-4"/>
+              <h3 className="text-xl font-bold mb-3">Local SEO Pages</h3>
+              <p className="text-brand-gray">Rank your business in local Google searches.</p>
+            </div>
+
+            <div className="glass-card p-8 rounded-xl">
+              <Zap className="w-8 h-8 text-brand-red mb-4"/>
+              <h3 className="text-xl font-bold mb-3">Website Optimization</h3>
+              <p className="text-brand-gray">Speed improvements, updates, and performance upgrades.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* Section 4 - Why Zentris Digital */}
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">Why Zentris Digital</h2>
+          <p className="text-brand-gray max-w-2xl mx-auto mb-12">
+            We don't just build websites; we build business assets.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <div>
+              <Zap className="w-10 h-10 text-brand-red mx-auto mb-4"/>
+              <h3 className="font-bold">Fast Delivery</h3>
+            </div>
+
+            <div>
+              <Layout className="w-10 h-10 text-brand-red mx-auto mb-4"/>
+              <h3 className="font-bold">Clean Modern Design</h3>
+            </div>
+
+            <div>
+              <TrendingUp className="w-10 h-10 text-brand-red mx-auto mb-4"/>
+              <h3 className="font-bold">Conversion Focused</h3>
+            </div>
+
+            <div>
+              <MapPin className="w-10 h-10 text-brand-red mx-auto mb-4"/>
+              <h3 className="font-bold">Local Business Expertise</h3>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-24 text-center">
+        <h2 className="text-4xl md:text-6xl font-bold mb-6">
+          Ready To Launch Your Website?
+        </h2>
+
+        <p className="text-xl text-white/80 mb-10">
+          Get a professional website built for your business.
+        </p>
+
+        <Link
+          to="/contact"
+          className="bg-white text-black px-8 py-4 rounded-md font-bold uppercase"
+        >
+          Schedule a Call
+        </Link>
+
+        <div className="mt-6 text-2xl font-bold flex justify-center items-center">
+          <Phone className="mr-3"/>
+          847-650-6404
+        </div>
+
+      </section>
+
+    </div>
+  );
+}
+
+>>>>>>> 21dc265e48442e582ed12dd6d208eff33329ca38
